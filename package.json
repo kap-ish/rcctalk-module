@@ -1,0 +1,30 @@
+{
+  "name": "rcctalk_modularized",
+  "version": "1.0.0",
+  "description": "Modularized version of rcctalk: Powerful command line utility to communicate with RCCService instances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kap-ish/rcctalk-module.git"
+  },
+  "keywords": [
+    "rcctalk"
+  ],
+  "author": "kapish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kap-ish/rcctalk-module/issues"
+  },
+  "homepage": "https://github.com/kap-ish/rcctalk-module#readme",
+  "dependencies": {
+    "fast-xml-parser": "^4.2.5",
+    "is-valid-hostname": "^1.0.2",
+    "node-fetch": "^3.3.1",
+    "ora": "^6.3.1",
+    "string-format": "^2.0.0",
+    "xml-formatter": "^3.5.0"
+  }
+}
